@@ -1,6 +1,4 @@
-# <summary>
-# continuous model for discounting a coupon bond
-# </summary>
+# continuous model for discounting a coupon bond ------------------------
 import numpy as np
 
 class couponBond:
@@ -29,9 +27,7 @@ if __name__ == '__main__':
     bond = couponBond(principal, rate, maturity, market_rate)
     print("Bond price is: %.2f" % bond.calculate_price())
     
-# <summary>
-# markowitz model implementation to find optimal portfolio with highest sharpe ratio
-# </summary>
+# markowitz model implementation to find optimal portfolio with highest sharpe ratio --------------------------
 import numpy as np
 import yfinance as yf
 import pandas as pd
