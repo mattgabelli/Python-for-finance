@@ -9,7 +9,7 @@ class couponBond:
         self.rate = rate/100
         self.maturity = maturity
         self.market_rate = market_rate/100
-    # calculate present value from a principal value
+    # calculate present value from a future value
     def present_value(self, x, n):
         return x*np.exp(-self.market_rate*n)
     # calculate price of a bond using continuous model
