@@ -28,6 +28,7 @@ if __name__ == '__main__':
     market_rate = int(input("Lastly, enter market interest rate as %:"))
     bond = couponBond(principal, rate, maturity, market_rate)
     print("Bond price is: %.2f" % bond.calculate_price())
+    
 # <summary>
 # markowitz model implementation
 # </summary>
