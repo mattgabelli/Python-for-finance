@@ -30,7 +30,7 @@ if __name__ == '__main__':
     print("Bond price is: %.2f" % bond.calculate_price())
     
 # <summary>
-# markowitz model implementation
+# markowitz model implementation to find optimal portfolio with highest sharpe ratio
 # </summary>
 import numpy as np
 import yfinance as yf
